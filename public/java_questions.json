@@ -1,0 +1,1394 @@
+[
+  {
+    "question": "Why is Java called the 'Platform Independent Programming Language'?",
+    "answer": "Because Java source code compiles into platform-neutral bytecode, which can run on any OS with a compatible JVM. ‘Write Once, Run Anywhere.’",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain the final keyword in Java.",
+    "answer": "final on variables makes them constants, on methods prevents overriding, and on classes prevents inheritance.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "When is the super keyword used?",
+    "answer": "To invoke a parent class’s constructor, method, or variable when it's shadowed by the subclass.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the difference between String and StringBuffer?",
+    "answer": "String is immutable; StringBuffer is mutable and synchronized, making it efficient for frequent modifications.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the difference between throw and throws?",
+    "answer": "\"throw\" actually raises an exception. \"throws\" declares exceptions a method may pass to its caller.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "What is finalize() in Java and when is it called?",
+    "answer": "Called by the garbage collector before object reclamation. It's unpredictable and deprecated in Java 9+.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Difference between Set and List interfaces.",
+    "answer": "List allows duplicates and preserves insertion order. Set disallows duplicates and doesn’t guarantee order.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Will finally block execute after System.exit(0)?",
+    "answer": "No. System.exit terminates the JVM before finally executes. If it throws SecurityException, finally runs.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain JDK, JRE, and JVM.",
+    "answer": "JVM runs bytecode. JRE bundles JVM and libraries. JDK includes JRE plus development tools like javac.",
+    "source": "Codefinity",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is polymorphism in Java?",
+    "answer": "Ability to treat objects of different types through a common interface. Achieved via method overloading (compile‑time) and overriding (run‑time).",
+    "source": "Java Code Geeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Is Java 100% object-oriented? Why or why not?",
+    "answer": "No—because it has primitive types (int, char, etc.) that aren’t objects.",
+    "source": "Java Code Geeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Describe applet lifecycle methods.",
+    "answer": "init(), start(), stop(), destroy(): for setup, execute, pause, and teardown respectively.",
+    "source": "Java Code Geeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain MVC design pattern in Swing.",
+    "answer": "Swing uses Model–View–Controller: Model stores state, View renders it, Controller handles user input.",
+    "source": "Java Code Geeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is RMI and its basic architecture?",
+    "answer": "Remote Method Invocation lets Java call methods on objects in different JVMs. It uses stubs/skeletons and registry.",
+    "source": "Java Code Geeks",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Difference between heap and stack memory.",
+    "answer": "Stack stores primitives and references per thread. Heap holds objects and arrays, shared and garbage-collected.",
+    "source": "InterviewBit",
+    "difficulty": "Medium",
+    "company": "Oracle",
+    "role": "SDE"
+  },
+  {
+    "question": "Why use interfaces over abstract classes?",
+    "answer": "Interfaces support multiple inheritance of type and can define contracts without state, with default methods.",
+    "source": "DataCamp",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain volatile keyword.",
+    "answer": "Ensures memory visibility: reads/writes go directly to main memory; prevents caching on threads.",
+    "source": "DataCamp",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "How does HashSet work internally?",
+    "answer": "Backed by HashMap: elements are keys; uses hashCode and equals to manage buckets.",
+    "source": "DataCamp",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Difference between Callable and Runnable.",
+    "answer": "Runnable returns void and can’t throw checked exceptions. Callable returns a value and can throw exceptions.",
+    "source": "DataCamp",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Implement LRU cache in Java.",
+    "answer": "Use LinkedHashMap with accessOrder=true and override removeEldestEntry, or use a HashMap + doubly‑linked list.",
+    "source": "LeetCode",
+    "difficulty": "Hard",
+    "company": "Uber",
+    "role": "SDE"
+  },
+  {
+    "question": "What are the top features of Java?",
+    "answer": "Java is object‑oriented, platform‑independent via bytecode and JVM, multithreaded, robust (GC, exception handling), secure, portable, and architecture-neutral :contentReference[oaicite:1]{index=1}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is JVM and its role in Java?",
+    "answer": "JVM (Java Virtual Machine) loads, verifies, and executes bytecode, enabling Java’s platform independence :contentReference[oaicite:2]{index=2}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain JIT compiler in Java.",
+    "answer": "JIT in the JVM compiles frequently used bytecode into native machine code at runtime, improving performance :contentReference[oaicite:3]{index=3}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Name JVM memory components.",
+    "answer": "Includes Method Area, Heap, Stack, Program Counter, and Native Method Stacks :contentReference[oaicite:4]{index=4}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is a class loader?",
+    "answer": "Classloader dynamically loads classes/interfaces into JVM at runtime :contentReference[oaicite:5]{index=5}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Difference between JVM, JRE, and JDK?",
+    "answer": "JVM executes bytecode, JRE bundles JVM + libraries, JDK includes JRE + tools like javac :contentReference[oaicite:6]{index=6}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "C++ vs Java – key differences?",
+    "answer": "Java is platform-independent, no pointers or multiple inheritance via classes, has automatic GC, security, and portability :contentReference[oaicite:7]{index=7}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the Java String Pool?",
+    "answer": "A special heap area storing string literals. New strings reuse instances if present, else created :contentReference[oaicite:8]{index=8}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Ways to create objects in Java?",
+    "answer": "Using new, clone(), deserialization, Class.newInstance(), factory methods :contentReference[oaicite:9]{index=9}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Initial value of an uninitialized instance variable?",
+    "answer": "Reference type → null; int → 0; boolean → false; etc. :contentReference[oaicite:10]{index=10}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is object cloning in Java?",
+    "answer": "Using clone() from Object. Supports shallow copy unless overridden for deep copy :contentReference[oaicite:11]{index=11}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Base class for Error and Exception?",
+    "answer": "java.lang.Throwable is superclass of both :contentReference[oaicite:12]{index=12}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Different types of thread priorities?",
+    "answer": "MIN_PRIORITY(1), NORM_PRIORITY(5), MAX_PRIORITY(10), default is NORM_PRIORITY :contentReference[oaicite:13]{index=13}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Check palindrome string in Java.",
+    "answer": "Reverse string using two-pointers or StringBuilder.reverse(), compare with original :contentReference[oaicite:14]{index=14}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Check if two strings are anagrams.",
+    "answer": "Sort and compare, or count frequency in array/hash and compare counts :contentReference[oaicite:15]{index=15}.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Find largest island in 2D matrix.",
+    "answer": "Use DFS/BFS to count connected 1s, track max area :contentReference[oaicite:16]{index=16}.",
+    "source": "DesignGurus",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE"
+  },
+  {
+    "question": "Find K closest points to origin.",
+    "answer": "Use max-heap of size k with comparator on distance, or QuickSelect in O(n) :contentReference[oaicite:17]{index=17}.",
+    "source": "DesignGurus",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE"
+  },
+  {
+    "question": "Merge two sorted linked lists.",
+    "answer": "Use two pointers, build merged list node-by-node :contentReference[oaicite:18]{index=18}.",
+    "source": "Educative.io",
+    "difficulty": "Easy",
+    "company": "Amazon",
+    "role": "SDE"
+  },
+  {
+    "question": "Find missing number in 1..n array.",
+    "answer": "Sum approach: n(n+1)/2 minus sum of array gives missing :contentReference[oaicite:19]{index=19}.",
+    "source": "Educative.io",
+    "difficulty": "Easy",
+    "company": "Amazon",
+    "role": "SDE"
+  },
+  {
+    "question": "Sum of two equals target? (Two-sum)",
+    "answer": "Using HashSet/Map to check complements in O(n) :contentReference[oaicite:20]{index=20}.",
+    "source": "Educative.io",
+    "difficulty": "Easy",
+    "company": "Amazon",
+    "role": "SDE"
+  },
+  {
+    "question": "Convert Roman to Integer.",
+    "answer": "Map symbols; iterate string using subtractive rule :contentReference[oaicite:21]{index=21}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "Longest Palindromic Substring.",
+    "answer": "Expand around center or use DP in O(n^2) :contentReference[oaicite:22]{index=22}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "Valid Parentheses.",
+    "answer": "Use stack: push on opening, pop & check matching on closing :contentReference[oaicite:23]{index=23}.",
+    "source": "Educative.io",
+    "difficulty": "Easy",
+    "company": "Amazon",
+    "role": "SDE"
+  },
+  {
+    "question": "Same Tree?",
+    "answer": "Recursively compare nodes and subtrees :contentReference[oaicite:24]{index=24}.",
+    "source": "Educative.io",
+    "difficulty": "Easy",
+    "company": "Amazon",
+    "role": "SDE"
+  },
+  {
+    "question": "Symmetric Tree?",
+    "answer": "Mirror recursion: left.left vs right.right, left.right vs right.left :contentReference[oaicite:25]{index=25}.",
+    "source": "Educative.io",
+    "difficulty": "Easy",
+    "company": "Amazon",
+    "role": "SDE"
+  },
+  {
+    "question": "Best Time to Buy and Sell Stock.",
+    "answer": "Track min price so far and max profit by diff :contentReference[oaicite:26]{index=26}.",
+    "source": "Educative.io",
+    "difficulty": "Easy",
+    "company": "Amazon",
+    "role": "SDE"
+  },
+  {
+    "question": "Diameter of Binary Tree.",
+    "answer": "DFS to get heights and max(d1,d2) at each node :contentReference[oaicite:27]{index=27}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "String to Integer (atoi).",
+    "answer": "Parse char-by-char, handle signs, overflow and stop on non-digit :contentReference[oaicite:28]{index=28}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "Integer to Roman.",
+    "answer": "Greedy subtractive mapping using arrays :contentReference[oaicite:29]{index=29}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "Valid Sudoku.",
+    "answer": "Use 3 sets per row/col/box to check duplicates :contentReference[oaicite:30]{index=30}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "Combination Sum.",
+    "answer": "Backtrack by choosing or skipping current number recursively :contentReference[oaicite:31]{index=31}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "Permutations.",
+    "answer": "Classic backtracking: swap and recurse; collect lists when depth matches length :contentReference[oaicite:32]{index=32}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "Merge Intervals.",
+    "answer": "Sort intervals by start, then merge overlapping ones in one pass :contentReference[oaicite:33]{index=33}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "Search in Rotated Sorted Array.",
+    "answer": "Modified binary search, decide half sorted and search accordingly :contentReference[oaicite:34]{index=34}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "Kth largest element in array.",
+    "answer": "Use min-heap size k or QuickSelect in average O(n) :contentReference[oaicite:35]{index=35}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "Convert sorted array to BST.",
+    "answer": "Recursively build by mid as root, left half to left subtree, right to right subtree :contentReference[oaicite:36]{index=36}.",
+    "source": "Educative.io",
+    "difficulty": "Easy",
+    "company": "Amazon",
+    "role": "SDE"
+  },
+  {
+    "question": "Clone directed graph.",
+    "answer": "Use DFS/BFS with a hashmap to copy nodes and neighbors :contentReference[oaicite:37]{index=37}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "Level order traversal of binary tree.",
+    "answer": "Use BFS with queue; dequeue node, record, enqueue its children :contentReference[oaicite:38]{index=38}.",
+    "source": "Educative.io",
+    "difficulty": "Easy",
+    "company": "Amazon",
+    "role": "SDE"
+  },
+  {
+    "question": "Check if tree is a BST.",
+    "answer": "Recursively enforce bounds: node.val in (min,max) for all subtrees :contentReference[oaicite:39]{index=39}.",
+    "source": "Educative.io",
+    "difficulty": "Easy",
+    "company": "Amazon",
+    "role": "SDE"
+  },
+  {
+    "question": "String segmentation (word break).",
+    "answer": "DP: dp[i]=true if any prefix ends at i and dp[i-prefix_len] is true :contentReference[oaicite:40]{index=40}.",
+    "source": "Educative.io",
+    "difficulty": "Medium",
+    "company": "Amazon",
+    "role": "SDE-II"
+  },
+  {
+    "question": "Explain Java Exception hierarchy.",
+    "answer": "Throwable → Error & Exception. Exception splits into checked and unchecked (RuntimeException). Errors signal JVM issues; unchecked exceptions don’t need to be declared in method signatures.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Difference between checked and unchecked exceptions?",
+    "answer": "Checked exceptions must be handled or declared (e.g., IOException). Unchecked (RuntimeException/Error) don’t require handling and are thrown at runtime due to programming errors.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "What is a custom exception?",
+    "answer": "User-defined exception class extending Exception or RuntimeException, allowing specific error types tailored to application logic.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain the synchronized keyword in Java.",
+    "answer": "Used to enforce mutual exclusion on critical sections. Applied to methods or blocks, it locks on the object/class monitor to prevent race conditions.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Volatile vs synchronized?",
+    "answer": "volatile ensures visibility but doesn’t guarantee atomicity or mutual exclusion. synchronized provides both visibility and atomic execution in blocks/methods.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Explain wait() vs sleep().",
+    "answer": "sleep() pauses thread without releasing lock; wait() releases lock and waits for notify/notifyAll.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Describe Java memory model.",
+    "answer": "Defines interaction of threads with memory, visibility guarantees for volatile, synchronized, final; coherence, orderings across threads.",
+    "source": "Java Concurrency in Practice",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "What is ThreadLocal in Java?",
+    "answer": "Provides thread-confined variables; each thread has its own variable copy stored in ThreadLocal map to avoid concurrency issues.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Explain Executor framework.",
+    "answer": "Provides high-level API for managing threads: Executor, ExecutorService, ThreadPoolExecutor, scheduling via ScheduledExecutorService.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "What is Callable vs Runnable?",
+    "answer": "Callable can return a result and throw checked exceptions. Runnable can’t. Callable is executed via ExecutorService for future results.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Explain Future and CompletableFuture.",
+    "answer": "Future represents pending computation. CompletableFuture lets you chain async tasks with callback-style composition and exception handling.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Difference between HashMap and ConcurrentHashMap?",
+    "answer": "HashMap isn’t thread-safe. ConcurrentHashMap allows concurrent reads/writes using lock-striping, no global lock.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Explain CopyOnWriteArrayList.",
+    "answer": "Thread-safe list where each mutative operation copies the array, making iteration safe without locks.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "What are functional interfaces?",
+    "answer": "Interfaces with a single abstract method, like Runnable, Comparator. Used as lambda targets and in method references.",
+    "source": "Oracle Java Docs",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain Lambda expressions.",
+    "answer": "Concise way to express anonymous functions, allowing functional programming: parameters, arrow →, and body.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is Stream API?",
+    "answer": "Provides functional-style operations (map, filter, reduce) on collections, supports sequential or parallel processing.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain Optional class.",
+    "answer": "Container to represent optional values—avoids nulls by using isPresent(), orElse(), map(), etc.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is method reference?",
+    "answer": "Shorthand lambda pointing to existing methods: Class::staticMethod, instance::instanceMethod, Type::new.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain default and static methods in interfaces.",
+    "answer": "Default: instance method with implementation. Static: class-level method. Added in Java 8 to enrich interfaces.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is Java Memory Model’s happens-before?",
+    "answer": "Guarantees memory visibility ordering: writes before a happens-before edge are visible to reads after the edge.",
+    "source": "Java Concurrency in Practice",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Explain ForkJoinPool.",
+    "answer": "Framework supports divide‑and‑conquer tasks via ForkJoinPool and RecursiveTask/RecursiveAction for parallelism.",
+    "source": "Oracle Docs",
+    "difficulty": "Hard",
+    "company": "Google",
+    "role": "SDE"
+  },
+  {
+    "question": "What’s difference between CountDownLatch and CyclicBarrier?",
+    "answer": "CountDownLatch is one-time; CyclicBarrier can be reused after parties reach barrier. Both synchronize threads.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Explain Semaphore.",
+    "answer": "Semaphore controls access to resource count permits; acquire/release to manage concurrency and throttling.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "What is volatile keyword used for?",
+    "answer": "Ensures visibility of writes across threads and prevents instruction reordering.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Explain Java synchronization on Class vs object.",
+    "answer": "synchronized(this) locks instance; synchronized(ClassName.class) locks class-level monitor across all instances.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "What are phantom references?",
+    "answer": "Weakest type of reference; used to track object post‑finalization and before GC—enables cleanup after finalize().",
+    "source": "Oracle Java Docs",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Explain soft and weak references.",
+    "answer": "Soft: reclaimed under memory pressure. Weak: reclaimed on next GC cycle when no strong ref exists.",
+    "source": "Oracle Java Docs",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "What’s reference queue?",
+    "answer": "Used with Soft/Weak/Phantom refs to receive notification when referents are ready for GC.",
+    "source": "Oracle Java Docs",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Explain finalize() vs phantom references.",
+    "answer": "finalize() is unreliable for cleanup; phantom references provide reliable post‑GC notification and cleanup aid.",
+    "source": "Oracle Java Docs",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "What are memory leaks in Java?",
+    "answer": "Unreachable but referenced objects (e.g., in static collections) that prevent GC, leading to out‑of‑memory issues.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "How to detect memory leaks?",
+    "answer": "Use profiling tools (VisualVM, Eclipse MAT) to find large retained graphs/unbounded collections.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Explain TLAB in JVM?",
+    "answer": "Thread-local allocation blocks: per-thread heap portions to reduce GC contention on allocation.",
+    "source": "Oracle JVM Internals",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "What is escape analysis?",
+    "answer": "Compiler optimization: determines if object can be allocated on stack, reducing GC overhead.",
+    "source": "Oracle JVM Internals",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Explain biased locking.",
+    "answer": "Optimizes uncontended sync by locking thread-biased mark, reducing atomic ops; upgraded on contention.",
+    "source": "Oracle JVM Internals",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "What is deoptimization?",
+    "answer": "Process of invalidating optimized code at runtime to reflect changed assumptions, enabling accurate behavior.",
+    "source": "Oracle JVM Internals",
+    "difficulty": "Hard",
+    "company": "Google",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Describe GC algorithms.",
+    "answer": "Serial, Parallel, CMS (concurrent mark‑sweep), G1 (Garbage‑first) with different pause/throughput tradeoffs.",
+    "source": "Oracle Docs",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "How to tune GC?",
+    "answer": "Adjust heap sizes, GC type, pause time goals, and monitor GC logs/P-histogram with tools like jstat and GC logs.",
+    "source": "Oracle Docs",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Explain escape vs safe points?",
+    "answer": "Escape analysis determines allocation context; safe points are locations where GC/pause can occur safely.",
+    "source": "Oracle JVM Internals",
+    "difficulty": "Hard",
+    "company": "Google",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "What is a memory barrier?",
+    "answer": "CPU-level instructions inserted for volatile/synchronized to prevent reordering and guarantee visibility.",
+    "source": "Java Concurrency in Practice",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Explain Java performance tuning strategies.",
+    "answer": "Profile for hotspots, optimize algorithms and data structures, tune JVM flags, reduce GC pauses, async IO.",
+    "source": "Oracle Docs",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Explain JNI.",
+    "answer": "Java Native Interface allows calling C/C++ code from Java for performance or platform-specific needs.",
+    "source": "Oracle Docs",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Explain reflection API.",
+    "answer": "Allows inspecting and interacting with classes, methods, fields at runtime (dynamic instantiation, method invocation).",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "What are design patterns? Name three commonly used in Java.",
+    "answer": "Design patterns are typical solutions to common software design problems. Common ones: Singleton, Factory, Observer.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain Singleton pattern and how to implement it in Java.",
+    "answer": "Singleton restricts class instantiation to one object. Implement using private constructor and static getInstance() method, optionally with lazy initialization and thread safety.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the Factory pattern?",
+    "answer": "Factory pattern provides an interface for creating objects but lets subclasses decide which class to instantiate.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain Observer pattern.",
+    "answer": "Observer defines a one-to-many dependency: when one object changes state, all its dependents are notified and updated automatically.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is Dependency Injection?",
+    "answer": "A design pattern where an object's dependencies are provided externally rather than created inside the object.",
+    "source": "Spring Framework Docs",
+    "difficulty": "Medium",
+    "company": "Google, Microsoft",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Explain Java Generics.",
+    "answer": "Enable types (classes/interfaces) to be parameters when defining classes, methods to ensure type safety at compile time.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What are bounded type parameters?",
+    "answer": "Generics can restrict types to subclasses/interfaces (e.g., <T extends Number>) to enforce constraints.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Difference between List and Set?",
+    "answer": "List allows duplicates, ordered collection; Set has unique elements, no guaranteed order.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Difference between ArrayList and LinkedList?",
+    "answer": "ArrayList backed by dynamic array, fast random access, slow inserts/removes; LinkedList is doubly-linked list, fast inserts/removes, slow random access.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain HashMap internal workings.",
+    "answer": "HashMap uses an array of buckets; keys hashed to index; buckets store linked list or balanced tree of entries; collision resolved via chaining.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is fail-fast iterator?",
+    "answer": "Iterator throws ConcurrentModificationException if underlying collection is modified structurally after iterator creation.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain the difference between Comparable and Comparator.",
+    "answer": "Comparable imposes natural ordering via compareTo(). Comparator allows external ordering via compare() method, can define multiple orders.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "How do you make a Java class immutable?",
+    "answer": "Declare class final, make fields private and final, no setters, initialize via constructor, avoid exposing mutable references.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain transient keyword.",
+    "answer": "Marks fields to be skipped during serialization; their value not saved/restored.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is serialization?",
+    "answer": "Process of converting an object to a byte stream to save or transmit, and later reconstruct it.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the difference between Serializable and Externalizable?",
+    "answer": "Serializable uses default serialization; Externalizable requires implementing readExternal/writeExternal methods for custom behavior.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain Java annotations and use cases.",
+    "answer": "Metadata providing information to compiler or runtime; used for documentation, code analysis, or framework configurations (e.g., @Override, @Deprecated, custom).",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is a marker interface?",
+    "answer": "Interface with no methods, used to indicate special behavior (e.g., Serializable).",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain difference between final, finally, and finalize.",
+    "answer": "final: keyword for constants, methods, classes; finally: block executed after try/catch; finalize(): method called before GC to clean up.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is classloader hierarchy?",
+    "answer": "Bootstrap loader (loads core classes), Extension loader (loads extensions), Application loader (loads app classes).",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "How does HashSet work internally?",
+    "answer": "Backed by HashMap; elements stored as keys with dummy values; hashing and equals determine uniqueness.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain Java memory leaks and prevention.",
+    "answer": "Leaks occur when objects are unintentionally referenced (e.g., static collections), preventing GC. Prevent via careful lifecycle management and weak references.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "What is the use of the native keyword?",
+    "answer": "Indicates method implemented in platform-specific code (e.g., C/C++), used for JNI calls.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Difference between wait() and join()?",
+    "answer": "wait(): called on object, releases lock, waits for notify; join(): called on thread, waits for thread to die.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "What is method overloading and overriding?",
+    "answer": "Overloading: same method name, different parameters. Overriding: subclass redefines superclass method with same signature.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain covariance and contravariance.",
+    "answer": "Covariance: allows subtype assignment (e.g., List<? extends Number>). Contravariance: allows supertype assignment (e.g., List<? super Integer>).",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What are the access modifiers in Java?",
+    "answer": "private, default (package), protected, public with increasing visibility.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain Java Stream intermediate and terminal operations.",
+    "answer": "Intermediate: lazy operations returning Stream (map, filter); Terminal: produce result or side effect (collect, forEach).",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "How to handle exceptions globally in Java web applications?",
+    "answer": "Use frameworks like Spring @ControllerAdvice or Servlet filters to catch and handle exceptions uniformly.",
+    "source": "Spring Docs",
+    "difficulty": "Medium",
+    "company": "Google, Microsoft",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "What is a deadlock? How to prevent it?",
+    "answer": "Deadlock: cyclic waiting on locks. Prevent via lock ordering, timeout, or avoiding nested locks.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "What is JVM bytecode verification?",
+    "answer": "Checks bytecode correctness and safety before execution to prevent security risks.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Difference between interface and abstract class?",
+    "answer": "Interface: pure abstraction, multiple inheritance allowed, no state (before Java 8). Abstract class: can have state, concrete methods, single inheritance.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain Java 8 default methods in interfaces.",
+    "answer": "Allow interfaces to have method implementations to enable backward compatibility and multiple inheritance of behavior.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the diamond problem? How does Java resolve it?",
+    "answer": "Multiple inheritance ambiguity in interfaces with same default methods. Java requires overriding to resolve conflict.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain how HashMap handles collisions.",
+    "answer": "Initially chaining with linked lists; when bucket size grows beyond threshold, converts to balanced tree for faster lookup.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the difference between shallow copy and deep copy?",
+    "answer": "Shallow copy copies object references; deep copy duplicates objects and referenced objects recursively.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the use of the 'this' keyword?",
+    "answer": "Refers to current object instance, used to access members or constructors.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is class initialization order in Java?",
+    "answer": "Static blocks/fields initialize first (in order), then instance blocks/fields, then constructor.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain transient keyword in Java serialization.",
+    "answer": "Fields marked transient are not serialized during object serialization.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the use of the strictfp keyword?",
+    "answer": "Ensures consistent floating-point calculations across platforms.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain method references in Java 8.",
+    "answer": "Short-hand for lambdas calling existing methods: Class::staticMethod, instance::method, Class::new for constructors.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the difference between JDK, JRE, and JVM?",
+    "answer": "JDK (Java Development Kit) includes tools for development; JRE (Java Runtime Environment) runs Java applications; JVM (Java Virtual Machine) executes Java bytecode.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain Java's pass-by-value mechanism.",
+    "answer": "Java passes arguments by value; primitives pass the actual value; objects pass reference copies, so changes to object state affect original, but reference reassignments don’t.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is a Java annotation processor?",
+    "answer": "Tool that processes annotations at compile-time to generate code, documentation, or perform validation.",
+    "source": "Oracle Java Docs",
+    "difficulty": "Hard",
+    "company": "Google, Microsoft",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the purpose of the transient keyword in serialization?",
+    "answer": "Marks fields to be ignored during serialization; their values are not saved/restored.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain the difference between synchronized method and synchronized block.",
+    "answer": "Synchronized method locks the entire method on the object or class monitor; synchronized block locks only specified object, offering finer control.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "What is the Java Memory Model?",
+    "answer": "Specification that describes how threads interact through memory, defines visibility, ordering, atomicity of variable accesses.",
+    "source": "Java Concurrency in Practice",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "Explain Fork/Join Framework.",
+    "answer": "A framework for parallelizing divide-and-conquer tasks; splits tasks into subtasks recursively, then joins results.",
+    "source": "Oracle Docs",
+    "difficulty": "Hard",
+    "company": "Google",
+    "role": "SDE"
+  },
+  {
+    "question": "What is the difference between String, StringBuilder, and StringBuffer?",
+    "answer": "String is immutable; StringBuilder is mutable and not thread-safe; StringBuffer is mutable and thread-safe.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What are the features of Java 17?",
+    "answer": "Long-term support release; features include sealed classes, pattern matching for switch, enhanced pseudo-random generators.",
+    "source": "Oracle Java Docs",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain sealed classes.",
+    "answer": "Classes restricting which other classes can extend or implement them, improving control and security.",
+    "source": "Oracle Java Docs",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the difference between interface and functional interface?",
+    "answer": "Functional interface has exactly one abstract method, suitable for lambdas; interface may have multiple abstract methods.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What are records in Java?",
+    "answer": "Compact syntax for immutable data classes automatically providing equals, hashCode, and toString methods.",
+    "source": "Oracle Java Docs",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is a Java module?",
+    "answer": "Introduced in Java 9; a module groups packages and resources with explicit dependencies and encapsulation rules.",
+    "source": "Oracle Java Docs",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain the difference between HashMap and TreeMap.",
+    "answer": "HashMap is unordered, O(1) average ops; TreeMap is sorted by keys, O(log n) ops using red-black tree.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is a ConcurrentModificationException?",
+    "answer": "Exception thrown when a collection is structurally modified during iteration by other than iterator's own remove method.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the difference between static and instance variables?",
+    "answer": "Static variables belong to the class, shared among all instances; instance variables belong to each object.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Easy",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain classloader delegation model.",
+    "answer": "Child classloaders delegate to parent first before loading classes, ensuring uniqueness and consistency.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "What is a deadlock and how can it be detected?",
+    "answer": "Deadlock is cyclic lock dependency blocking progress. Detected via thread dumps or monitoring tools.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "What is a lambda capture?",
+    "answer": "Lambdas can capture effectively final variables from enclosing scope for use inside lambda body.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain functional programming concepts in Java.",
+    "answer": "Includes immutability, higher-order functions, pure functions, side-effect-free computation, and stream operations.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What are the new features of Java 14/15?",
+    "answer": "Records preview, pattern matching for instanceof, text blocks, helpful NullPointerExceptions.",
+    "source": "Oracle Java Docs",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain method handles.",
+    "answer": "Low-level typed, directly executable references to methods and constructors with better performance than reflection.",
+    "source": "Oracle Java Docs",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "What is reflection and why is it used?",
+    "answer": "Reflection allows inspecting and manipulating classes/methods/fields at runtime; used in frameworks, serialization, debugging.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the volatile keyword's role in concurrency?",
+    "answer": "Ensures visibility of changes across threads and prevents instruction reordering.",
+    "source": "Java Concurrency in Practice",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Explain Java’s memory model for final fields.",
+    "answer": "Final fields have special guarantees: once constructor completes, all threads see correctly initialized final fields without synchronization.",
+    "source": "Java Concurrency in Practice",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "What are the differences between early binding and late binding?",
+    "answer": "Early binding happens at compile time (static methods, final methods); late binding happens at runtime (overridden methods).",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain Java garbage collection roots.",
+    "answer": "Roots are GC starting points: local variables, active threads, static fields; objects reachable from roots aren’t collected.",
+    "source": "Oracle Docs",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  },
+  {
+    "question": "What is the difference between a daemon thread and a user thread?",
+    "answer": "Daemon threads provide background services and do not prevent JVM exit; user threads keep JVM alive until complete.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Backend Developer"
+  },
+  {
+    "question": "Explain difference between String.intern() and StringBuilder.",
+    "answer": "intern() returns a canonical representation from string pool; StringBuilder used for mutable string concatenation.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "What is the diamond problem in multiple inheritance and how does Java solve it?",
+    "answer": "Occurs with multiple inheritance ambiguity; Java resolves via interface default method override requirements in implementing classes.",
+    "source": "Oracle Java Tutorials",
+    "difficulty": "Medium",
+    "company": "Various",
+    "role": "Software Engineer"
+  },
+  {
+    "question": "Explain Java memory leak examples and solutions.",
+    "answer": "Static collections, listeners not removed, improper cache use cause leaks; fix by removing references and using weak refs.",
+    "source": "GeeksforGeeks",
+    "difficulty": "Hard",
+    "company": "Various",
+    "role": "Senior Software Engineer"
+  }
+]

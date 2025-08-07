@@ -1,0 +1,25 @@
+{
+  "name": "interview-analyzer-server",
+  "version": "1.0.0",
+  "description": "Backend server for Interview Experience Analyzer with NLP processing",
+  "main": "index.cjs",
+  "scripts": {
+    "start": "node index.cjs",
+    "dev": "nodemon index.cjs"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "interview",
+    "nlp",
+    "experience",
+    "analyzer"
+  ],
+  "author": "Interview Analyzer Team",
+  "license": "MIT"
+} 
